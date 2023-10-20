@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(175, 180, 180);
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.text-name {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(255, 247, 247);
+}
+
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Sofia;
+    padding: 10px;
+    color: rgb(63, 97, 30);
+    font-style: normal;
+    text-transform: lowercase;
+}
+
+li {
+    margin-left: 30px;
+    line-height: 30px;
+    color: rgb(30, 69, 141);
+    list-style: circle;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    padding: 10px;
+    color: rgb(30, 69, 141);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    margin: 10px;
+    padding: 3px;
+}
+
+th,
+td {
+    padding: 5px 5px;
+    text-align: center;
+}
+.social-medias{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.fa-brands{
+    padding: 0px 5px 0px 5px;
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    padding-left: 10px;
+
+}
+footer{
+    margin-top: 30px;
+    background-color: rgb(53, 48, 48);
+    text-align: center;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: aqua;
+    text-transform: lowercase;
+    font-style: italic;
+}
